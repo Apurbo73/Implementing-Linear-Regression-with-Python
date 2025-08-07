@@ -70,7 +70,6 @@ $$
 
 
 
----
 
 ## 🔹 5. Assumptions of Linear Regression
 
