@@ -67,31 +67,8 @@ $$
 
 ---
 
-## 🔹 4. Code Example (Python / scikit-learn)
 
-```python
-from sklearn.linear_model import LinearRegression
-from sklearn.model_selection import train_test_split
-import numpy as np
 
-# Sample data
-X = np.array([[1], [2], [3], [4], [5]])
-y = np.array([3, 4, 2, 5, 6])
-
-# Split data
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
-
-# Create model
-model = LinearRegression()
-model.fit(X_train, y_train)
-
-# Predict
-predictions = model.predict(X_test)
-
-# Print coefficients
-print("Slope (m):", model.coef_)
-print("Intercept (b):", model.intercept_)
-```
 
 ---
 
@@ -114,10 +91,3 @@ print("Intercept (b):", model.intercept_)
 
 ---
 
-If you’d like, I can also show:
-
-* How to implement Linear Regression **from scratch in Python**
-* How to **visualize** results
-* How to handle **multiple variables** (multivariate regression)
-
-Would you like any of these?
