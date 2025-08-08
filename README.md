@@ -1,4 +1,4 @@
-### Implementing Linear Regression with Python
+### Implementing Linear Regression with Python:
 ### 📘 Machine Learning: Linear Regression
 
 **Linear Regression** is one of the simplest and most commonly used algorithms in **supervised learning**, particularly for **regression tasks**.
